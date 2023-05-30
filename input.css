@@ -7,3 +7,23 @@
     --lightPink: #ec5242;
     --ash: #d3d3d3;
 }
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+#hero-section h1 {
+    background-image: linear-gradient(var(--lightPink),var(--lightPink)), url('../images/hero-text-pattern.png');
+    background-blend-mode: multiply;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#resources-section {
+    background-image: linear-gradient(var(--darkBlue), var(--darkBlue)) ,url('./images/patternpad.png');
+    background-blend-mode: multiply;
+}
+
+.course-card {
+    background-color: #3b3e4585;
+}

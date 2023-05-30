@@ -1,53 +1,102 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>Elon Coding Bootcamp</title>
-  </head>
-  <body>
-    <header>
-      <div
-        class="banner hidden w-full md:flex bg-veryDarkBlue py-2 pr-44 justify-end items-center gap-x-5 text-white"
-      >
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <a href="#">English</a>
-        <a href="#">My page</a>
-        <a href="#">Logout</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/e9f5458810.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="input.css" rel="stylesheet" />
+  <title>Elon Coding Bootcamp</title>
+</head>
+
+<body>
+  <header>
+    <div class="banner hidden w-full md:flex bg-veryDarkBlue py-2 pr-44 justify-end items-center gap-x-5 text-white">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <a href="#">English</a>
+      <a href="#">My page</a>
+      <a href="#">Logout</a>
+    </div>
+    <nav class="h-[63px] w-full bg-white shadow-md flex flex-row md:px-10 justify-around">
+      <a href="index.html" class="flex items-center">
+        <img src="/images/logo.png" alt="brand-logo" class="w-[50px]" />
+        <p class="text-2xl font-bold text-veryDarkBlue">
+          <span class="text-lightPink">I</span>Bootcamp
+        </p>
+      </a>
+      <ul class="list-none md:flex md:gap-9 lg:gap-12 items-center hidden font-semibold">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">News</a></li>
+        <li>
+          <a href="#"><button class="p-2 border-4 border-lightPink text-lightPink font-bold">
+              Get coupon
+            </button></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="w-full">
+    <section id="hero-section" class="py-[41px] flex flex-col items-center bg-gray-100">
+      <p class="text-lightPink text-2xl text-left w-full md:w-[650px]">"Unlock Your Coding Potential"</p>
+      <h1 class="font-semibold px-2 mt-2 text-4xl md:text-6xl w-full md:w-[650px] capitalize">Join the Ultimate Coding
+        Bootcamp
+        Experience!</h1>
+      <p class="w-full md:w-[730px] p-4 bg-gray-100 border-4 border-white mt-16">
+        Transform your passion for coding into a rewarding career with our
+        immersive coding bootcamp. Gain practical skills, work on real-world
+        projects, and learn from industry experts. Start your journey today
+        and pave the way to a successful future in tech!
+      </p>
+      <div class="flex flex-col mt-16 w-full md:w-[730px]">
+        <p class=" text-xl md:text-3xl text-veryDarkBlue">
+          <time datetime="2023-06-20">June 20th, 2023 (MON)</time> to
+          <time datetime="2023-06-25">June 25th, 2023 (FRI)</time>
+        </p>
+        <p>
+        <address>@AiAsum Conference Center, Ho Akpenami Road</address>
+        </p>
       </div>
-      <nav
-        class="h-[63px] w-full bg-white shadow-md flex flex-row md:px-24 justify-around"
-      >
-        <a href="index.html" class="flex items-center">
-          <img src="/images/logo.png" alt="brand-logo" class="w-[50px]" />
-          <p class="text-2xl font-bold text-veryDarkBlue">
-            <span class="text-lightPink">Ai</span>Asum
-            <span class="text-lightPink">C</span>ode
+    </section>
+    <section id="resources-section" class="w-full py-[71px] bg-veryDarkBlue flex flex-col items-center gap-[24px]">
+      <h2 class="text-2xl capitalize text-white font-semibold">Coding Courses</h2>
+      <div class="flex flex-col md:flex-row gap-[3px] md:justify-center items-center">
+        <div class="course-card flex flex-row md:flex-col px-[13px] gap-[13px] pt-2 pb-[15px] max-w-[350px] md:w-[200px] items-center">
+          <p class="text-white"><i class="fa-brands fa-html5 text-6xl"></i></p>
+          <p class="font-bold text-[18px] text-lightPink">HTML</p>
+          <p class="text-center text-white">get opportunities to network with CC affiliates around the world, also after the summit.
           </p>
-        </a>
-        <ul
-          class="list-none md:flex md:gap-9 lg:gap-12 items-center hidden font-semibold"
-        >
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li>
-            <a href="#"
-              ><button class="p-2 border-4 border-lightPink text-lightPink font-bold">
-                Claim discount
-              </button></a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </body>
+        </div>
+        <div class="course-card flex flex-row md:flex-col px-[13px] gap-[13px] pt-2 pb-[15px] max-w-[350px] md:w-[200px] items-center">
+          <p class="text-white"><i class="fa-brands fa-html5 text-6xl"></i></p>
+          <p class="font-bold text-[18px] text-lightPink">HTML</p>
+          <p class="text-center text-white">get opportunities to network with CC affiliates around the world, also after the summit.
+          </p>
+        </div>
+        <div class="course-card flex flex-row md:flex-col px-[13px] gap-[13px] pt-2 pb-[15px] max-w-[350px] md:w-[200px] items-center">
+          <p class="text-white"><i class="fa-brands fa-html5 text-6xl"></i></p>
+          <p class="font-bold text-[18px] text-lightPink">HTML</p>
+          <p class="text-center text-white">get opportunities to network with CC affiliates around the world, also after the summit.
+          </p>
+        </div>
+        <div class="course-card flex flex-row md:flex-col px-[13px] gap-[13px] pt-2 pb-[15px] max-w-[350px] md:w-[200px] items-center">
+          <p class="text-white"><i class="fa-brands fa-html5 text-6xl"></i></p>
+          <p class="font-bold text-[18px] text-lightPink">HTML</p>
+          <p class="text-center text-white">get opportunities to network with CC affiliates around the world, also after the summit.
+          </p>
+        </div>
+       
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
