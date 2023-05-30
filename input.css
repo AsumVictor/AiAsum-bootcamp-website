@@ -28,6 +28,12 @@
     background-blend-mode: multiply;
 }
 
+#about-hero-section{
+    background-image: url('../images/about-hero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .course-card {
     background-color: #3b3e4585;
 }
