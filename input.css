@@ -27,3 +27,26 @@
 .course-card {
     background-color: #3b3e4585;
 }
+
+
+@media screen and (max-width: 768px) {
+    .tutor-card {
+        display: none;
+    }
+    
+    .tutor-card.show{
+        display: flex;
+    }
+    
+    .tutor-card:nth-child(1), .tutor-card:nth-child(2) {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .tutor-card {
+        display: flex;
+    }
+
+}
+
