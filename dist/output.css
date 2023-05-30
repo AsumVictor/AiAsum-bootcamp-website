@@ -854,14 +854,6 @@ video {
   aspect-ratio: auto;
 }
 
-.aspect-\[4\/3\] {
-  aspect-ratio: 4/3;
-}
-
-.aspect-\[16\/9\] {
-  aspect-ratio: 16/9;
-}
-
 .h-\[45px\] {
   height: 45px;
 }
@@ -886,24 +878,16 @@ video {
   width: 50px;
 }
 
-.w-\[6rem\] {
-  width: 6rem;
-}
-
 .w-\[85px\] {
   width: 85px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[8rem\] {
-  width: 8rem;
-}
-
 .w-\[9rem\] {
   width: 9rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[350px\] {
@@ -1434,8 +1418,16 @@ video {
   gap: 0.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-\[13px\] {
@@ -1452,10 +1444,6 @@ video {
 
 .gap-\[3px\] {
   gap: 3px;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-x-5 {
@@ -2633,8 +2621,12 @@ video {
   font-family: 'Lato', sans-serif;
 }
 
+#hero-section {
+  background-image: url('../images/hero-bacground.png');
+}
+
 #hero-section h1 {
-  background-image: linear-gradient(var(--lightPink),var(--lightPink)), url('../images/hero-text-pattern.png');
+  background-image: url('../images/hero-text-pattern.png');
   background-blend-mode: multiply;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
