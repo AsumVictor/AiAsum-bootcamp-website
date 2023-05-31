@@ -1,3 +1,5 @@
+import getTutors from "./dynamic_pages/tutors_page.js";
+import getCourses from "./dynamic_pages/courses_page.js";
 const mobileMenu = document.querySelector(".mobile-nav");
 const closeMenu = document.querySelector(".close");
 const openMenu = document.querySelector(".humberger");
@@ -25,3 +27,17 @@ navLinks.forEach((link) => {
     document.body.style.overflowY = "scroll";
   });
 });
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  getTutors()
+  getCourses()
+  let tutorCards = document.querySelectorAll(".tutor-card");
+  let viewMoreTutorBtn =  document.querySelector(".view-more");
+
+  //Show all tutorcard when user clicks on view more 
+  viewMoreTutorBtn.addEventListener("click",()=>{
+    tutorCards.forEach((card) => {
+      card.classList.toggle('show')
+    })
+  })
+})
