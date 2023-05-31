@@ -6,10 +6,10 @@ const tutors = [
     avatar: 'https://avatars.githubusercontent.com/u/105683075?v=4',
   },
   {
-    name: 'James Road',
-    position: 'Developer at Google',
-    bio: 'James has been working with google for the past 3 years. He has also taught programming on youtube',
-    avatar: 'https://s.yimg.com/ny/api/res/1.2/tpQldXI5R28rpXrV8njtvw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en/insider_articles_922/4a62f6009f4ca203787562d6d2ff7eba',
+    name: 'Morro Suleyman',
+    position: 'Student at Ashesi University',
+    bio: 'Suleyman is a computer science student who teaches data science and data structure.',
+    avatar: 'https://media.licdn.com/dms/image/D5603AQEDMY3t_vurSw/profile-displayphoto-shrink_800_800/0/1674504907800?e=2147483647&v=beta&t=qkftmVEN0g5akIZL0ny-uS9rqIRcjhOwDx2sY1cDAW8',
   },
   {
     name: 'Owusu Ansah Desmond',
