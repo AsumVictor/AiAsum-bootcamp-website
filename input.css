@@ -3,61 +3,58 @@
 @tailwind utilities;
 
 :root {
-    --darkBlue: #272a31;
-    --lightPink: #ec5242;
-    --ash: #d3d3d3;
+  --darkBlue: #272a31;
+  --lightPink: #ec5242;
+  --ash: #d3d3d3;
 }
 
-*{
-    font-family: 'Lato', sans-serif;
+* {
+  font-family: 'Lato', sans-serif;
 }
 
 #hero-section {
-    background-image: url('../images/hero-bacground.png');
+  background-image: url('../images/hero-bacground.png');
 }
 
 #hero-section h1 {
-    background-image: linear-gradient(var(--lightPink),var(--lightPink)), url('../images/hero-text-pattern.png');
-    background-blend-mode: multiply;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(var(--lightPink), var(--lightPink)), url('../images/hero-text-pattern.png');
+  background-blend-mode: multiply;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #resources-section {
-    background-image: linear-gradient(var(--darkBlue), var(--darkBlue)) ,url('../images/patternpad.png');
-    background-blend-mode: multiply;
+  background-image: linear-gradient(var(--darkBlue), var(--darkBlue)), url('../images/patternpad.png');
+  background-blend-mode: multiply;
 }
 
-#about-hero-section{
-    background-image: url('../images/about-hero.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+#about-hero-section {
+  background-image: url('../images/about-hero.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .course-card {
-    background-color: #3b3e4585;
+  background-color: #3b3e4585;
 }
 
-
 @media screen and (max-width: 768px) {
-    .tutor-card {
-        display: none;
-    }
-    
-    .tutor-card.show{
-        display: flex;
-    }
-    
-    .tutor-card:nth-child(1), .tutor-card:nth-child(2) {
-        display: flex;
-    }
+  .tutor-card {
+    display: none;
+  }
 
+  .tutor-card.show {
+    display: flex;
+  }
+
+  .tutor-card:nth-child(1),
+  .tutor-card:nth-child(2) {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .tutor-card {
-        display: flex;
-    }
-
+  .tutor-card {
+    display: flex;
+  }
 }
-

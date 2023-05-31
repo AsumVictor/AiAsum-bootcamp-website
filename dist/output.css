@@ -1970,6 +1970,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/images\/SpeedUP-Africa-Ashesi-University\.jpg\'\)\] {
+  background-image: url('../images/SpeedUP-Africa-Ashesi-University.jpg');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2698,7 +2702,7 @@ video {
   --ash: #d3d3d3;
 }
 
-*{
+* {
   font-family: 'Lato', sans-serif;
 }
 
@@ -2707,18 +2711,18 @@ video {
 }
 
 #hero-section h1 {
-  background-image: linear-gradient(var(--lightPink),var(--lightPink)), url('../images/hero-text-pattern.png');
+  background-image: linear-gradient(var(--lightPink), var(--lightPink)), url('../images/hero-text-pattern.png');
   background-blend-mode: multiply;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #resources-section {
-  background-image: linear-gradient(var(--darkBlue), var(--darkBlue)) ,url('../images/patternpad.png');
+  background-image: linear-gradient(var(--darkBlue), var(--darkBlue)), url('../images/patternpad.png');
   background-blend-mode: multiply;
 }
 
-#about-hero-section{
+#about-hero-section {
   background-image: url('../images/about-hero.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -2733,11 +2737,12 @@ video {
     display: none;
   }
 
-  .tutor-card.show{
+  .tutor-card.show {
     display: flex;
   }
 
-  .tutor-card:nth-child(1), .tutor-card:nth-child(2) {
+  .tutor-card:nth-child(1),
+  .tutor-card:nth-child(2) {
     display: flex;
   }
 }
@@ -2924,4 +2929,3 @@ video {
     }
   }
 }
-
