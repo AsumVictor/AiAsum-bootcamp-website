@@ -1,8 +1,8 @@
 const tutors = [
   {
     name: 'Asum Victor',
-    position: 'CEO of AiAsum co-operation LTD',
-    bio: 'As the president of AiAsum co-operation, Asum promotes collaboration.',
+    position: 'Student at Microverse',
+    bio: 'Asum Victor is a student from the microverse community. He is skilled in frontend development.',
     avatar: 'https://avatars.githubusercontent.com/u/105683075?v=4',
   },
   {
@@ -13,8 +13,8 @@ const tutors = [
   },
   {
     name: 'Owusu Ansah Desmond',
-    position: 'Developer at Microsoft, C.E.O of Patupa',
-    bio: 'Desmond has been helping students to land software engineering jobs for the past 2 years. He teaches React.js',
+    position: 'Student at microverse community',
+    bio: 'Desmond is part of the microverse community and also a code reviewer at microverse.',
     avatar: 'https://pbs.twimg.com/profile_images/1471991776001019906/8ZDsZcwh_400x400.jpg',
   },
   {
