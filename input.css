@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,100&display=swap');
+
 :root {
   --darkBlue: #272a31;
   --lightPink: #ec5242;

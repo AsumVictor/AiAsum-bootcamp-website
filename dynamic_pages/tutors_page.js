@@ -12,7 +12,7 @@ const getTutors = () => {
         <div class="flex flex-col gap-2">
           <p class="text-veryDarkBlue text-xl font-bold">${tutor.name}</p>
           <p class="text-lightPink font-semibold">${tutor.position}</p>
-          <p class="text-veryDarkBlue text-[16px] font-semibold lg:px-2">${tutor.bio}</p>
+          <p class="text-veryDarkBlue text-[16px] font-semibold">${tutor.bio}</p>
         </div>
         `;
 

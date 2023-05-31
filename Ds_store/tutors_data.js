@@ -9,7 +9,7 @@ const tutors = [
     name: 'James Road',
     position: 'Developer at Google',
     bio: 'James has been working with google for the past 3 years. He has also taught programming on youtube',
-    avatar: 'https://media.healthpages.wiki/5/5e/Dr_Victor_Hurley_-Obstetrics_and_Gynaecological_Ultrasound_Specialist-.png',
+    avatar: 'https://s.yimg.com/ny/api/res/1.2/tpQldXI5R28rpXrV8njtvw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en/insider_articles_922/4a62f6009f4ca203787562d6d2ff7eba',
   },
   {
     name: 'Owusu Ansah Desmond',
