@@ -14,9 +14,29 @@
   {
     name: "Owusu Ansah Desmond",
     position: "Developer at Microsoft, C.E.O of Patupa",
-    bio: ``,
+    bio: `Desmond has been helping students to land software engineering jobs for the past 2 years. He teaches React.js`,
     avatar: "https://pbs.twimg.com/profile_images/1471991776001019906/8ZDsZcwh_400x400.jpg",
   },
+  {
+    name: "Oliver Mensah",
+    position: "Founder of BrightField Academy",
+    bio: `Oliver is a DevOp at digital occean. Last year he taught student about soft skills at Ibootcamp`,
+    avatar: "https://www.ashesi.org/wp-content/uploads/2021/04/Oliver-1200x1225.jpg",
+  },
+  {
+    name: "Esinam Yevu",
+    position: "Co-Founder of PayBox, Career Mentor",
+    bio: `Esinam provides career guidance for students and also help them to develop their communication skills`,
+    avatar: "https://africabusinesscommunities.com/Images/Key%20Persons/Esinam%20Yevu-PayBox-AfricaBusinessCommunities.jpg",
+  },
+  {
+    name: "Xie Jin Jinshing",
+    position: "Career Mentor at KinJin LTD",
+    bio: `Xie Jin Jinshing provides career guidance for students and also help them to develop their professional skills`,
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9FhIQPVnza7Fqg1FDdGG_o2RvtnNx13HG1A&usqp=CAU",
+  },
+
+  
 ];
 
 export default tutors

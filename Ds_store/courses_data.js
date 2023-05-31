@@ -21,6 +21,11 @@ let courses = [
       desription: `React is a JavaScript library used for building reusable UI components and efficiently user interfaces.`,
     },
 
+    {
+      name: "DS",
+      icon: "fa-solid fa-database",
+      desription: `Data structures help organize and store data in a specific way for efficient operations and manipulation`,
+    },
      ];
   
   export default courses
