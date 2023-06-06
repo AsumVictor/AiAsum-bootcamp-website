@@ -31,7 +31,7 @@ navLinks.forEach((link) => {
   });
 });
 
-// wnhen the page finish loading 
+// wnhen the page finish loading
 document.addEventListener('DOMContentLoaded', () => {
   getTutors();
   getCourses();
