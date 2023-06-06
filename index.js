@@ -1,6 +1,8 @@
+// Importing dynmics pages
 import getTutors from './dynamic_pages/tutors_page.js';
 import getCourses from './dynamic_pages/courses_page.js';
 
+// declaring variables
 const mobileMenu = document.querySelector('.mobile-nav');
 const closeMenu = document.querySelector('.close');
 const openMenu = document.querySelector('.humberger');
@@ -29,6 +31,7 @@ navLinks.forEach((link) => {
   });
 });
 
+// wnhen the page finish loading
 document.addEventListener('DOMContentLoaded', () => {
   getTutors();
   getCourses();
